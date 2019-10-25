@@ -1,5 +1,5 @@
 
-@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Roboto+Mono&display=swap');
 
 $first-color: #E3E3E3;
 $second-color: #F6F6F8;
@@ -11,7 +11,7 @@ $detail-color: #C60021;
 }
 body {
   margin: 0;
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Roboto Mono', monospace;
   text-align: center;
   color: $writing-color;
 }
@@ -28,24 +28,65 @@ body {
     padding: 10px 0;
     a {
       text-decoration: none;
-      font-size: 15px;
+      font-size: 11px;
       background-color: $second-color;
-      color: $detail-color;
+      color: $writing-color;
       border-radius: 5px;
-      padding: 10px;
-      width: 30%;
+      padding: 5px;
+      width: 45%;
       display: flex;
       align-items: center;
       justify-content: center;
+      box-shadow: 0px 0px 5px 0px rgba(55,55,55,0.3);
     }
   }
 }
 
 #find {
+  padding: 20px;
+  h2 {
+    font-size: 16px;
+  }
   button {
-    border: 1px solid black;
+    font-size: 14px;
+    font-family: 'Roboto Mono', monospace;
+    // border: 1px solid black;
     border-radius: 5px;
     background-color: white;
+    padding: 5px 20px;
+    margin: auto;
+    box-shadow: 0px 0px 5px 0px rgba(55,55,55,0.3);
   }
+    button:focus {
+      outline: none;
+  }
+  p {
+    width: 100%;
+    margin: 20vh 0;
+  }
+  h3 {
+    width: 100%;
+    position: fixed;
+    bottom: 30px;
+    right: 40px;
+    text-align: right;
+    font-size: 16px;
+  }
+}
 
+#saved {
+  padding: 20px;
+  h2 {
+    font-size: 16px;
+  }
+  button {
+    font-size: 14px;
+    font-family: 'Roboto Mono', monospace;
+    // border: 1px solid black;
+    border-radius: 5px;
+    background-color: white;
+    padding: 5px 20px;
+    margin: auto;
+    box-shadow: 0px 0px 5px 0px rgba(55,55,55,0.3);
+  }
 }

@@ -15,10 +15,10 @@ class Navbar extends React.Component {
   render() {
     return (
       <div id="navbar">
-        <h1>Dad Jokes</h1>
+        <h1>dad jokes</h1>
         <nav>
-          <Link to="/find">Hear Joke</Link>
-          <Link to="/saved">Remember Joke</Link>
+          <Link to="/find">hear new jokes</Link>
+          <Link to="/saved">remember old jokes</Link>
         </nav>
       </div>
     )

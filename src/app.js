@@ -11,7 +11,7 @@ import './style.scss'
 class App extends React.Component {
   render() {
     return (
-      <container>
+      <div>
         <HashRouter>
           <Navbar />
           <Switch>
@@ -19,7 +19,7 @@ class App extends React.Component {
             <Route path="/saved/" component={SavedJokes} />
           </Switch>
         </HashRouter>
-      </container>
+      </div>
     )
   }
 }

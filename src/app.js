@@ -11,13 +11,15 @@ import './style.scss'
 class App extends React.Component {
   render() {
     return (
-      <HashRouter>
-        <Navbar />
-        <Switch>
-          <Route path="/find/" component={FindJoke} />
-          <Route path="/saved/" component={SavedJokes} />
-        </Switch>
-      </HashRouter>
+      <container>
+        <HashRouter>
+          <Navbar />
+          <Switch>
+            <Route path="/find/" component={FindJoke} />
+            <Route path="/saved/" component={SavedJokes} />
+          </Switch>
+        </HashRouter>
+      </container>
     )
   }
 }

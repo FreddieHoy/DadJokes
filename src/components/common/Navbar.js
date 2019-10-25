@@ -14,13 +14,11 @@ class Navbar extends React.Component {
 
   render() {
     return (
-      <div>
+      <div id="navbar">
         <h1>Dad Jokes</h1>
         <nav>
-          <div>
-            <Link to="/find">HearJoke </Link>
-            <Link to="/saved">Remember Joke</Link>
-          </div>
+          <Link to="/find">Hear Joke</Link>
+          <Link to="/saved">Remember Joke</Link>
         </nav>
       </div>
     )

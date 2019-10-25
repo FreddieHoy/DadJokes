@@ -16,7 +16,7 @@ class SavedJokes extends React.Component {
   render() {
     return (
       <div>
-        <p>Dad, what was that one you said the other day?...</p>
+        <p>Dad, what was the one you said the other day?...</p>
         <p></p>
         <button onClick={this.getNewJoke}>Prompt for Joke</button>
       </div>

@@ -5,11 +5,10 @@ class FindJoke extends React.Component {
   constructor() {
     super()
     this.state = {
-      jokeinfo: {}
-
+      joke: ''
     }
 
-    this.createNewJoke = this.createNewJoke.bind(this)
+    this.getNewJoke = this.getNewJoke.bind(this)
   }
 
   componentDidMount() {
@@ -21,7 +20,7 @@ class FindJoke extends React.Component {
       .then(res => this.setState({ joke: res.data.joke }))
   }
 
-  createNewJoke() {
+  getNewJoke() {
     this.setState({ joke: 'Loading...'})
     axios.get('https://icanhazdadjoke.com/', {
       headers: {
@@ -33,10 +32,9 @@ class FindJoke extends React.Component {
   render() {
     return (
       <div>
-        <h1>Dad Jokes</h1>
         <p>Lets have it then dad..</p>
         <p>{this.state.joke}</p>
-        <button onClick={this.createNewJoke}>Prompt for Joke</button>
+        <button onClick={this.getNewJoke}>Prompt for Joke</button>
       </div>
 
     )

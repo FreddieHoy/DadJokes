@@ -15,8 +15,8 @@ class App extends React.Component {
         <HashRouter>
           <Navbar />
           <Switch>
-            <Route path="/find/" component={FindJoke} />
-            <Route path="/saved/" component={SavedJokes} />
+            <Route path="/saved" component={SavedJokes} />
+            <Route path="/" component={FindJoke} />
           </Switch>
         </HashRouter>
       </div>

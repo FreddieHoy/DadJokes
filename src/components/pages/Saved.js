@@ -35,6 +35,7 @@ class SavedJokes extends React.Component {
           <p key={jokeinfo.id}> - {jokeinfo.joke}</p>
         )}
         <button onClick={this.removeJokes}>{'DAD YOU\'RE NOT FUNNY!'}</button>
+        <h4>(CAUTION)</h4>
       </div>
     )
   }

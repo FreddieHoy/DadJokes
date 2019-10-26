@@ -71,8 +71,17 @@ body {
     right: 40px;
     text-align: right;
     font-size: 16px;
+    span {
+      padding-left: 10px;
+      font-size: 20px;
+    }
   }
 }
+
+.toggleStar {
+  color: $detail-color;
+}
+
 
 #saved {
   padding: 20px;
@@ -91,5 +100,9 @@ body {
   }
   button:focus {
       outline: none;
+  }
+  h4 {
+    margin: none;
+    font-size: 8px;
   }
 }

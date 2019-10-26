@@ -62,12 +62,12 @@ class FindJoke extends React.Component {
   render() {
     return (
       <div id='find'>
-        <h2>🙄 lets have it then dad..</h2>
+        <h2>lets have it then dad.. 🙄</h2>
         <button onClick={this.getNewJoke}>prompt him for a joke</button>
         <p>
           <i className="fas fa-quote-left"></i>
           <br /><br />
-          {this.state.jokeinfo.joke}
+          <span>{this.state.jokeinfo.joke}</span>
           <br /><br />
           <i className="fas fa-quote-right"></i>
         </p>

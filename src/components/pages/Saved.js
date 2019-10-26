@@ -7,7 +7,6 @@ class SavedJokes extends React.Component {
     this.state = {
       jokesSaved: []
     }
-
     this.removeJokes = this.removeJokes.bind(this)
   }
 
@@ -30,7 +29,7 @@ class SavedJokes extends React.Component {
   render() {
     return (
       <div id="saved">
-        <h2>Dad, what did you say?..</h2>
+        <h2>what did you say dad?..</h2>
         <div>
           <div>
             {this.state.jokesSaved.map(jokeinfo =>

@@ -11,7 +11,7 @@ import './style.scss'
 class App extends React.Component {
   render() {
     return (
-      <div>
+      <div className="mobileContainer">
         <HashRouter>
           <Navbar />
           <Switch>

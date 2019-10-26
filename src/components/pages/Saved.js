@@ -31,9 +31,13 @@ class SavedJokes extends React.Component {
     return (
       <div id="saved">
         <h2>Dad, what did you say?..</h2>
-        {this.state.jokesSaved.map(jokeinfo =>
-          <p key={jokeinfo.id}> - {jokeinfo.joke}</p>
-        )}
+        <div>
+          <div>
+            {this.state.jokesSaved.map(jokeinfo =>
+              <p key={jokeinfo.id}> - {jokeinfo.joke}</p>
+            )}
+          </div>
+        </div>
         <button onClick={this.removeJokes}>{'DAD YOU\'RE NOT FUNNY!'}</button>
         <h4>(CAUTION)</h4>
       </div>

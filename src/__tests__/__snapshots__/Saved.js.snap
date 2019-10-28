@@ -1,0 +1,51 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should render banner text correctly with given strings 1`] = `
+<div
+  id="saved"
+>
+  <h2>
+    what did you say dad?..
+  </h2>
+  <div>
+    <div>
+      <p>
+         - 
+      </p>
+    </div>
+  </div>
+  <button
+    onClick={[Function]}
+  >
+    DAD YOU'RE NOT FUNNY!
+  </button>
+  <h4>
+    (CAUTION)
+  </h4>
+</div>
+`;
+
+exports[`should render correctly with no props 1`] = `
+<div
+  id="saved"
+>
+  <h2>
+    what did you say dad?..
+  </h2>
+  <div>
+    <div>
+      <p>
+         - 
+      </p>
+    </div>
+  </div>
+  <button
+    onClick={[Function]}
+  >
+    DAD YOU'RE NOT FUNNY!
+  </button>
+  <h4>
+    (CAUTION)
+  </h4>
+</div>
+`;

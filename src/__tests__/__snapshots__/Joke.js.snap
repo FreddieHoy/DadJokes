@@ -1,0 +1,81 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should render banner text correctly with given strings 1`] = `
+<div
+  id="find"
+>
+  <h2>
+    lets have it then dad.. 🙄
+  </h2>
+  <button
+    onClick={[Function]}
+  >
+    prompt him for a joke
+  </button>
+  <p>
+    <i
+      className="fas fa-quote-left"
+    />
+    <br />
+    <br />
+    <span />
+    <br />
+    <br />
+    <i
+      className="fas fa-quote-right"
+    />
+  </p>
+  <h3
+    onClick={[Function]}
+  >
+    save for later
+    <span
+      className={null}
+    >
+      <i
+        className="fas fa-star"
+      />
+    </span>
+  </h3>
+</div>
+`;
+
+exports[`should render correctly with no props 1`] = `
+<div
+  id="find"
+>
+  <h2>
+    lets have it then dad.. 🙄
+  </h2>
+  <button
+    onClick={[Function]}
+  >
+    prompt him for a joke
+  </button>
+  <p>
+    <i
+      className="fas fa-quote-left"
+    />
+    <br />
+    <br />
+    <span />
+    <br />
+    <br />
+    <i
+      className="fas fa-quote-right"
+    />
+  </p>
+  <h3
+    onClick={[Function]}
+  >
+    save for later
+    <span
+      className={null}
+    >
+      <i
+        className="fas fa-star"
+      />
+    </span>
+  </h3>
+</div>
+`;

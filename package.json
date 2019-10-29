@@ -7,7 +7,7 @@
     "test": "jest -u",
     "serve": "webpack-dev-server --mode=development",
     "build": "webpack -p",
-    "deploy": "yarn build && gh-pages -d dist"
+    "deploy": "npm build && gh-pages -d dist"
   },
   "repository": {
     "type": "git",

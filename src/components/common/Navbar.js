@@ -18,7 +18,7 @@ class Navbar extends React.Component {
         <h1>dad jokes</h1>
         <nav>
           <Link className="navFind" to="/">hear new jokes</Link>
-          <Link className="navSaved" to="/saved">hear old jokes</Link>
+          <Link className="navSaved" to="/saved">hear saved jokes</Link>
         </nav>
       </div>
     )
